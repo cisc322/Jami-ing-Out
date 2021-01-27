@@ -1,7 +1,7 @@
 ## The Team
 
 Alice Petrov
-Ben Minor
+Ben Minor (17bwm)
 Bruce Chidley
 Renee Tibando
 Teo Ilie
