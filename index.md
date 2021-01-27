@@ -1,12 +1,15 @@
-## Welcome to our project
+## Jami-ing Out
 
 Group Members: Alice Petrov, Ben Minor, Bruce Chidley, Renee Tibando, Teo Ilie, Zack Urbaniak
 
 ### Assignments
 
-[Assignment 1]().
+[Assignment 1]()
+
 [Assignment 2]()
+
 [Assignment 3]()
+
 [Assignment 4]()
 ### Jekyll Themes
 
