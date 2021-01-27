@@ -1,6 +1,11 @@
 ## The Team
 
-Alice Petrov, Ben Minor, Bruce Chidley, Renee Tibando, Teo Ilie, Zack Urbaniak
+Alice Petrov
+Ben Minor
+Bruce Chidley
+Renee Tibando
+Teo Ilie
+Zack Urbaniak
 
 ### Assignments
 
