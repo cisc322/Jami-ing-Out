@@ -1,6 +1,6 @@
-## Jami-ing Out
+## The Team
 
-Group Members: Alice Petrov, Ben Minor, Bruce Chidley, Renee Tibando, Teo Ilie, Zack Urbaniak
+Alice Petrov, Ben Minor, Bruce Chidley, Renee Tibando, Teo Ilie, Zack Urbaniak
 
 ### Assignments
 
