@@ -23,16 +23,31 @@
         <p class = "desClass"> The  purpose  of  this  project  is  to  give  you  an  appreciation  of  software  architecture  in  the  context  of  a large software system, for which youwill create a detailed architecture report. </p>
         <hr class = "line1">
 
-        <h4>The Team</h4>
+        <h4>The Team</h4> 
 
         <p class="desClass"> Alice Petrov <br> Ben Minor (17bwm) <br> Bruce Chidley <br> Renee Tibando <br> Teo Ilie <br> Zack Urbaniak <br>
-          <hr class = "line1">
-        
-        <h4>Assignments</h4><br>
-
-        <p class = "desClass"></p>
+      
   </div>
+  <div id="container">
+  <div onclick="location.href='assignment1.html';" id = "A1">
+      <h2>Assignment 1</h2> 
+  </div>
+
+  <div onclick="location.href='assignment2.html';" id = "A2">
+    <h2>Assignment 2</h2> 
+  </div>
+
+  <div onclick="location.href='assignment3.html';" id = "A3">
+    <h2>Assignment 3</h2>
+  </div>
+
+  <div onclick="location.href='assignment4.html';" id = "A4">
+  <h2>Assignment 4</h2> 
+  </div>
+
+  <span class="stretch"></span>
 </div>
+
 </body>
 </html>
 
@@ -44,12 +59,26 @@
   position:relative;
   z-index:0;
 }
+.stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0
+}
+
+#container {
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
+
+}
 
 
 .overlay {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 75%;
   transform: translate(-50%, -50%);
   z-index:2;
 }
@@ -76,9 +105,8 @@ div.overlay h1{
   }
   h2 {
     font-family: "Helvetica Neue";
-    color: #02192F;
-    font-size: 200%;
-    margin-top: 0%;
+    color: white;
+    font-size: 175%;
   }
 
 
@@ -102,11 +130,28 @@ div.overlay h1{
     text-align: left;
   }
 
+  .assignmentContainer {
+    display: inline;
+
+  }
+
 
   .mainOverlay{
     align-content: left;
-    width: 100%;
     height: 100%;
+    background: #02192F;
+    border-radius: 10px;
+    border: 10px solid #02192F;
+  }
+
+  #A1, #A2, #A3, #A4 {
+    cursor: pointer;
+    margin-top: 2.5%;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    align-content: left;
     background: #02192F;
     border-radius: 10px;
     border: 10px solid #02192F;
